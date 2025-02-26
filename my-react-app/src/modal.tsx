@@ -29,7 +29,7 @@ const Modal: React.FC<ModalProps> = ({visible, onHide, onSelect}) => {
 
     return (
         <Dialog
-            header="Bir ID veya isim seçiniz"
+            header="Bir isim seçiniz"
             visible={visible}
             style={{ width: "400px" }}
             onHide={onHide}
@@ -46,7 +46,7 @@ const Modal: React.FC<ModalProps> = ({visible, onHide, onSelect}) => {
             )}
             onChange={(e) => onSelect(e.value)}
             filter
-            placeholder="ID veya isim seçiniz"
+            placeholder=" isim seçiniz"
             className="w-full"
         />
 
